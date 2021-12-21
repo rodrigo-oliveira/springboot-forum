@@ -2,12 +2,22 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Spring Boot-DemoApplication<demo>",
+            "name": "Spring Boot-ForumApplication<forum>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",
-            "mainClass": "com.example.demo.DemoApplication",
-            "projectName": "demo",
+            "mainClass": "com.example.forum.ForumApplication",
+            "projectName": "forum",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ForumApplication<forum>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.forum.ForumApplication",
+            "projectName": "forum",
             "args": ""
         },
         {

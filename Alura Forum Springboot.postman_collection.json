@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "33be0a43-7c8e-469c-8e2e-210dfe47d0f5",
+		"name": "Alura Forum Springboot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "topicos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "topicos?nomeCurso=Spring",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "topicos (POST)",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"titulo\": \"Dúvida Postman\",\n    \"mensagem\": \"LOREM IPSUM\",\n    \"nomeCurso\": \"Springboot\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/topicos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"topicos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "topicos/{id}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "topicos/{id} (PUT)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "topicos/{id} (DELETE)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
